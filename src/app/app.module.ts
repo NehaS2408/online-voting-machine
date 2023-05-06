@@ -6,13 +6,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RegisterComponent } from './register/register.component';
 import { VoteComponent } from './vote/vote.component';
+import { SuccessComponent } from './success/success.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     RegisterComponent,
-    VoteComponent
+    VoteComponent,
+    SuccessComponent
   ],
   imports: [
     BrowserModule,
