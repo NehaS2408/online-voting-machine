@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from "@angular/router";
 
 @Component({
   selector: 'app-register',
@@ -6,6 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./register.component.css']
 })
 export class RegisterComponent {
+
+  constructor(
+    private readonly router: Router
+  ) {}
 
   title = 'student1';
   // num1=0;
@@ -42,4 +47,8 @@ export class RegisterComponent {
  //   this.result="login unsuccessfull";
  // }
  // }
+
+ register() {
+    this.router.navigate(['/vote']);
+ }
   }
