@@ -4,7 +4,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 1vh;
-    background: url('C:\Users\HP\Downloads\voting.jfif');
+    background: url('./assets/voting.jfif');
     background-size: cover;
     background-position: center;
 }
