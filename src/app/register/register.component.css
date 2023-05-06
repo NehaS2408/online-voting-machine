@@ -19,7 +19,7 @@ h1{
 }
 fieldset{
     border-radius: 50px 50px 50px 50px;
-    background: url(f.jpg);
+    background: url('../../assets/f.jpg');
     background-size: contain;
     background-size: cover;
     background-repeat: no-repeat;
